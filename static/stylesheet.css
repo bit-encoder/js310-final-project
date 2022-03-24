@@ -1,0 +1,122 @@
+/* BODY STYLING
+*/
+body {
+    background-color: RGB(30,30,30);
+}
+
+/* NAV STYLING
+*/
+nav {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    width: 50%;
+
+    padding: 0;
+    margin: 0;
+
+    
+    list-style: none;
+    
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    background-color: #247BA0;
+    
+    width: 50%;
+    height: 50px;
+    
+    margin: 5px;
+    border-radius: 15px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li:first-child {
+    margin-right: 5px;
+}
+
+nav ul li:last-child {
+    margin-left: 5px;
+}
+
+nav ul li:hover {
+    background-color:#1C5A73;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:visited {
+    color: darkgray;
+    text-decoration: none;
+}
+
+/* MAIN STYLING
+*/
+
+main {
+    width: 50%;
+    
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main button {
+    width: 50%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* DIV project-canvas
+*/
+#project-canvas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#project-canvas img {
+    width: 75%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#large-canvas {
+    width: 75%;
+    height: 75vh;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: black;
+}
+
+label {
+    color: #CCC;
+    font-size: 20px;
+}
+
+input {
+    margin-bottom: 20px;
+}
